@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Привет! Это моё первое API на Vercel"}
+    return {"message": "Привет! Это моё второе API на Vercel"}
 
 @app.get("/about")
 def about():
