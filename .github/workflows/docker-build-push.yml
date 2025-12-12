@@ -20,4 +20,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-demo:latest
+          tags: ${{ secrets.CHINGO }}/devops-demo:latest
